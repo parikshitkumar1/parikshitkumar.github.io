@@ -6,15 +6,17 @@ html, body, header, nav, ul, li, h1, h2, p, footer {
 
 /* Global styles */
 body {
-    font-family: 'Arial', sans-serif; /* Change font to Arial */
-    background-color: #f0f0f0; /* Light background color */
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5; /* Light background color */
 }
 
 header {
-    background-color: #4CAF50; /* Green background color */
+    background-color: #ff80ab; /* Pink background color */
     color: #fff; /* White text color */
     padding: 20px;
     text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
 
 nav ul {
@@ -29,27 +31,23 @@ nav ul li {
 nav ul li a {
     color: #fff; /* White text color */
     text-decoration: none;
+    font-weight: bold; /* Bold font weight */
 }
 
 section {
     padding: 50px 20px;
-    background-color: #fff; /* White background color */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
-    margin-bottom: 30px; /* Add space between sections */
 }
 
 h2 {
     margin-bottom: 20px;
-    color: #333; /* Dark text color */
+    color: #ff80ab; /* Pink heading color */
 }
 
 footer {
-    background-color: #333; /* Dark background color */
+    background-color: #ff80ab; /* Pink background color */
     color: #fff; /* White text color */
     text-align: center;
     padding: 20px;
-    position: fixed; /* Stick to the bottom */
-    width: 100%; /* Full width */
-    bottom: 0; /* Stick to the bottom */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
