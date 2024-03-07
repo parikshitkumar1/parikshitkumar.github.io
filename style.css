@@ -7,12 +7,12 @@ html, body, header, nav, ul, li, h1, h2, p, footer {
 /* Global styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5; /* Light background color */
+    background-color: black; /* Black background color */
+    color: #fff; /* White text color */
 }
 
 header {
     background-color: #ff80ab; /* Pink background color */
-    color: #fff; /* White text color */
     padding: 20px;
     text-align: center;
     border-radius: 10px; /* Rounded corners */
@@ -36,6 +36,7 @@ nav ul li a {
 
 section {
     padding: 50px 20px;
+    background-color: black; /* Black background color */
 }
 
 h2 {
@@ -45,7 +46,6 @@ h2 {
 
 footer {
     background-color: #ff80ab; /* Pink background color */
-    color: #fff; /* White text color */
     text-align: center;
     padding: 20px;
     border-radius: 10px; /* Rounded corners */
